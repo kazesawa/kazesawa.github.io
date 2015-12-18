@@ -168,17 +168,19 @@
 }
 
 .logo {
-  transition: opacity .3s ease 0s, transform .4s ease-out 0s, box-shadow .4s ease-out 0s;
+  transition: opacity .3s ease 0s, transform .4s ease-out 0s, box-shadow .4s ease-out 0s, background-color .4s ease-out 0s;
 
   &:hover {
     opacity: .8;
     transform: scale(.99, .99);
     box-shadow: 0 0 3px rgba(0,0,0,.5) inset;
+    background-color: rgba(0,0,0,.07);
   }
 
   &:active {
     transform: scale(.98, .98);
     box-shadow: 0 0 7px rgba(0,0,0,.7) inset;
+    background-color: rgba(0,0,0,.12);
   }
 }
 
