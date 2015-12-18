@@ -11,13 +11,17 @@ layout: headless
   </p>
 
   <p class="hero light">
-    Kazesawa フォントは、画面での見やすさと適度な情報密度の両立を目指した<br>
+    Kazesawa (かぜさわ) フォントは、画面での見やすさと適度な情報密度の両立を目指した<br>
     日本語の TrueType フォントです。
   </p>
 
   <div class="hero">
     <a href="https://github.com/kazesawa/kazesawa/releases" class="button">
       GitHub でリリースをダウンロード
+    </a>
+
+    <a href="https://github.com/kazesawa/kazesawa" class="button">
+      kazesawa/kazesawa on GitHub
     </a>
   </div>
 
@@ -62,8 +66,14 @@ layout: headless
   <div class="hero" id="free-license">
     <h3>自由なライセンス</h3>
 
-    <p>Kazesawa フォントは、非常にゆるいライセンスの M+ フォントと、SIL Open Font License のもとに配布されている Source Sans Pro の合成フォントなので、Kazesawa フォントも SIL Open Font License に基づいて提供されます。</p>
-    <p>このライセンスは <a href="https://opensource.org/licenses/OFL-1.1">FSF によってフリーであると認定されています</a>。<br>Kazesawa フォントは使用や再配布を自由に行うことができます。</p>
+    <p>
+      Kazesawa フォントは、非常にゆるいライセンスの M+ フォントと、SIL Open Font License のもとに配布されている Source Sans Pro の合成フォントなので、Kazesawa フォントも SIL Open Font License に基づいて提供されます。
+    </p>
+    <p>
+      このライセンスは <a href="https://opensource.org/licenses/OFL-1.1">FSF によってフリーであると認定されています</a>。<br>
+      Kazesawa フォントは使用や再配布を自由に行うことができます。<br>
+      <a href="webfont.html">もちろん Web フォントとして使用することもできます</a>。
+    </p>
   </div>
 
   <div class="hero" id="high-visibility">
@@ -111,12 +121,21 @@ layout: headless
   </div>
 
   <div class="hero">
+    <h2>ドキュメント</h2>
+    <ul>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}<li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>{% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="hero">
     <a href="https://github.com/kazesawa/kazesawa/releases" class="button">
       GitHub でリリースをダウンロード
     </a>
 
     <a href="https://github.com/kazesawa/kazesawa" class="button">
-      プロジェクトページ
+      kazesawa/kazesawa on GitHub
     </a>
   </div>
 </div>
