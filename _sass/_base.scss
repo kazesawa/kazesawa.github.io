@@ -13,13 +13,6 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-@include font-face('Kazesawa-ExtraLight');
-@include font-face('Kazesawa-Light');
-@include font-face('Kazesawa-Regular');
-@include font-face('Kazesawa-Semibold');
-@include font-face('Kazesawa-Bold');
-@include font-face('Kazesawa-Extrabold');
-
 .extralight {
   font-family: 'Kazesawa-ExtraLight';
 }

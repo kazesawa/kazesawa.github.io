@@ -1,0 +1,19 @@
+---
+---
+
+@charset "utf-8";
+
+@mixin font-face($font-name) {
+  @font-face {
+    font-family: $font-name;
+    src: url("/fonts/#{$font-name}.woff"),
+         url("/fonts/#{$font-name}.ttf");
+  }
+}
+
+@include font-face('Kazesawa-ExtraLight');
+@include font-face('Kazesawa-Light');
+@include font-face('Kazesawa-Regular');
+@include font-face('Kazesawa-Semibold');
+@include font-face('Kazesawa-Bold');
+@include font-face('Kazesawa-Extrabold');

@@ -41,14 +41,6 @@ $on-laptop:        800px;
   }
 }
 
-@mixin font-face($font-name) {
-  @font-face {
-    font-family: $font-name;
-    src: url("/fonts/#{$font-name}.woff"), url("/fonts/#{$font-name}.ttf");
-  }
-}
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
