@@ -4,20 +4,119 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <p class="hero">
+    <a href="https://github.com/kazesawa/kazesawa">
+      <img src="/images/kazesawa_white.svg" class="logo" alt="Kazesawa フォント">
+    </a>
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p class="hero">
+    Kazesawa フォントは、画面での見やすさと適度な情報密度の両立を目指した<br>
+    日本語の TrueType フォントです。
+  </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="hero">
+    <a href="https://github.com/kazesawa/kazesawa/releases" class="button">
+      GitHub でリリースをダウンロード
+    </a>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="hero sparse">
+    <h2>特徴</h2>
 
+    <ul class="features">
+      <li><a href="#six-weights">豊富なウェイト</a></li>
+      <li><a href="#free-license">自由なライセンス</a></li>
+      <li><a href="#high-visibility">高い視認性</a></li>
+    </ul>
+  </div>
+
+  <div class="hero" id="six-weights">
+    <h3>豊富なウェイト</h3>
+
+    <p>
+      <span class="extralight">
+        Extralight,
+      </span>
+      <span class="light">
+        Light,
+      </span>
+      <span>
+        Regular,
+      </span>
+      <span class="semibold">
+        Semibold,
+      </span>
+      <span class="bold">
+        Bold
+      </span>
+      そして
+      <span class="extrabold">
+        Extrabold
+      </span>
+      の 6 種類ものウェイトを使い分けることができます。
+    </p>
+    <p><span class="extralight">繊細なシーンから、</span><span class="extrabold">力強さが必要なとき</span>まで自由自在に表現が広がります。</p>
+  </div>
+
+  <div class="hero" id="free-license">
+    <h3>自由なライセンス</h3>
+
+    <p>Kazesawa フォントは、非常にゆるいライセンスの M+ フォントと、SIL Open Font License のもとに配布されている Source Sans Pro の合成フォントなので、Kazesawa フォントも SIL Open Font License に基づいて提供されます。</p>
+    <p>このライセンスは<a href="https://opensource.org/licenses/OFL-1.1">FSF によってフリーであると認定されています</a>。<br>Kazesawa フォントは使用や再配布を自由に行うことができます。</p>
+  </div>
+
+  <div class="hero" id="high-visibility">
+    <h3>高い視認性</h3>
+
+    <p>Kazesawa フォントには、<a href="http://mix-mplus-ipa.osdn.jp/migu/">Migu 1C と同様の</a>プロポーショナル化処理が施されています。なので、通常の M+ やその派生フォントよりもひらがなやカタカナが詰まって見えます。<br>したがって、Web サイトやスライドなど、なるべく文字の密度を自然に上げたいときに役立ちます。</p>
+  </div>
+
+  <div class="hero">
+    <h3>ギャラリー</h3>
+    <p><small>テキストボックスの中は編集が可能です</small></p>
+
+    <figure class="gallery">
+      <blockquote class="extralight" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <blockquote class="light" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <blockquote class="regular" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <blockquote class="semibold" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <blockquote class="bold" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <blockquote class="extrabold" contenteditable>
+        HyperText Markup Language (HTML) は、Web ページの製作や、その他のブラウザで閲覧できるドキュメントの作成に利用されます。HTML は国際的な標準規格であり、その仕様は World Wide Web Consortium によって保守されています。HTML は2014年10月28日にHTML5 仕様がW3Cによって勧告されました。
+      </blockquote>
+
+      <figcaption>Quoted from <a href="https://developer.mozilla.org/ja/docs/Web/HTML">https://developer.mozilla.org/ja/docs/Web/HTML</a> under CC BY-SA</figcaption>
+    </figure>
+  </div>
+
+  <div class="hero">
+    <h3>紹介スライド: Introducing Kazesawa Font</h3>
+    <script async class="speakerdeck-embed" data-id="70dbae1e53e844788e242c23d3b89a76" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+
+  <div class="hero">
+    <a href="https://github.com/kazesawa/kazesawa/releases" class="button">
+      GitHub でリリースをダウンロード
+    </a>
+
+    <a href="https://github.com/kazesawa/kazesawa" class="button">
+      プロジェクトページ
+    </a>
+  </div>
 </div>
