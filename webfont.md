@@ -15,6 +15,9 @@ Kazesawa フォントを Web フォントとして利用する 2 つの方法に
 
 以上のような行を試したいアプリケーションの `<head>` タグの中などに追記し、Kazesawa を使用したい HTML の要素の `font-family` プロパティを `Kazesawa-Regular` などに設定すれば動作するはずです。
 
+たとえば codepen.io で試すとこのようになります:
+
+[![Web font test on codepen.io](/images/articles/codepen-webfont.png)](http://codepen.io/anon/pen/rxevJa?editors=110)
 
 ## 自分でフォントファイルを配信する
 
