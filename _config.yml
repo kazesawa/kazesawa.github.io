@@ -7,7 +7,7 @@
 
 # Site settings
 title: "Kazesawa フォント: M+ と Source Sans Pro の合成フォント"
-description: "Kazesawa フォントは M+ と Source Sans Pro の合成フォントです"
+description: "Kazesawa (かぜさわ) フォントは、画面での見やすさと適度な情報密度の両立を目指した M+ と Source Sans Pro の合成フォントです。"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kazesawa.github.io" # the base hostname & protocol for your site
 github_username: kazesawa
